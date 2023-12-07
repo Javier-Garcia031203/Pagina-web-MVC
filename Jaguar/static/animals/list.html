@@ -1,0 +1,34 @@
+<div class="w3-card-4">
+    <head>
+        <link rel="stylesheet" type="text/css" href="static\css\HojaDeEstilo.css">
+      </head>
+    <header class="w3-container w3-green">
+      <h3>Listado de ejemplares de Jaguares</h3>
+    </header>
+        <table>
+            <thead> 
+                <th>Nombre </th>
+                <th>Edad </th>
+                <th>Numero de Habitad </th>
+                <th>Tipo de alimentacion </th>
+                <th>Fecha de ingreso </th>
+            </thead>
+            <tbody>
+                <!--LISTADO-->
+                <tr>
+                    <td>{Nombre}</td>
+                    <td>{Edad}</td>
+                    <td>{NumerodeHabitad}</td>
+                    <td>{Tipodealimentacion}</td>
+                    <td>{Fechadeingreso}</td>
+
+                    <td><a href="/animals/animal/delete/{id}" 
+                        onclick="return confirm('Está seguro de borrar {description}?');"> 
+                        </a>
+                    </td> 
+
+                </tr>
+                <!--LISTADO-->
+            </tbody>
+        </table>
+</div>
